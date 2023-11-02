@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+input{
+    outline-style: none;
+    border: none;
+    color: white;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.nav{
+    grid-column: 1/8;
+    display: flex;
+    justify-content: space-between;
+    background-color:#212121;
+    align-items: center;
+    padding: 20px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    width: 220px;
+    justify-content: space-between;
+}
+.start p{
+    font-size: 30px;
+    
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.input input{
+    height: 40px;
+    width: 362px;
+    background: #121212;
+}
+
+.input button{
+height: 40px;
+width: 40px; 
+background-color: #303030;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+
+
+
+.sidebar{
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    gap: 50px;
+    background-color:#212121;
+    grid-column: 1/2;
+    height: 554px;
+    grid-row: 2/4;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.home button{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#212121;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.home p {
+    font-weight: 400;
+    font-size: 14px;
+    width: 100px;
+    text-align: start;
+}
+
+
+.library{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.library button{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#212121;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.library p {
+    font-weight: 400;
+    font-size: 14px;
+    width: 100px;
+    text-align: start;
+}
+
+
+
+.subsri{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.subsri button{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#212121;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.subsri img{
+    border-radius: 10px;
+}
+.subsri p {
+    font-weight: 400;
+    font-size: 14px;
+    width: 100px;
+    text-align: start;
+}
+
+
+
+
+
+
+.filters{
+    background-color: aqua;
+    grid-column: 2/8;
+}
+.content{
+    background-color: yellowgreen;
+    grid-column: 2/8;
+}
